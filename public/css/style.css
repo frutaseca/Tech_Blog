@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+main, .site-name {
+    background-color: #5a5858;
+}
+
+a, .btn-no-style, #comment-subtitle {
+    color: #3041da;
+}
+
+a:hover, .btn-no-style:hover {
+    color: #5cb5f0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .1s;
+}
+
+button {
+    border: 0;
+    padding: 1%;
+    color: rgb(19, 18, 77);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3486eb;
+}
+
+.post-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.go-back {
+    color: #100196;
+}
+
+textarea, input {
+    padding: .5%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header, .site-row, .info-section, .form-heading {
+    background-color: #1b2c19;
+}
+
+.login-page, .sign-in-page, .new-form-page, .edit-form-page {
+    border: 3px solid black;
+    padding-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+.site-row {
+    display: flex;
+    justify-content: center;
+}
+
+.site-name {
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-style: double;
+}
+
+main {
+    padding: 2% 4%;
+}
+
+.post {
+    margin-bottom: 2%;
+    line-height: 150%;
+    border: 3px solid black;
+}
+
+.edit-link {
+    color: #2c2307;
+}
+
+.edit-post-form {
+    margin-bottom: 30%;
+}
+
+.new-post-section {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-link, .login-link {
+    color: #2c2307;
+}
+
+.form-heading h1, .form-heading h2 {
+    color: #b8cba2;
+}
+
+.login-form, .signup-form, .post-content, .post-title-section {
+    padding: 10px  0px;
+}
